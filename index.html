@@ -80,7 +80,7 @@ svg .jour:hover .cible { fill: var(--trait); opacity: .45 }
 .legende i { display: inline-block; width: 12px; height: 12px; border-radius: 2px; background: var(--neige) }
 .legende i.trait { width: 3px; height: 16px; border-radius: 2px; background: var(--encre); opacity: .55 }
 
-.tableau { overflow-x: auto; border: 1px solid var(--trait); border-radius: 6px; background: var(--panneau) }
+.tableau { overflow-x: auto; padding-bottom: 0; border: 1px solid var(--trait); border-radius: 6px; background: var(--panneau) }
 table { border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nums }
 th, td { padding: .5rem .75rem; text-align: right; border-bottom: 1px solid var(--trait); white-space: nowrap }
 tr:last-child > * { border-bottom: 0 }
@@ -88,6 +88,18 @@ th[scope="row"] { text-align: left; font-weight: 600 }
 thead th { font-family: var(--titre); font-stretch: 85%; font-size: .8rem; font-weight: 700; text-transform: uppercase;
   letter-spacing: .06em; color: var(--doux); vertical-align: bottom }
 td { font-family: var(--chiffres); font-size: .95rem }
+.aide { all: unset; position: relative; cursor: help; display: inline-flex; align-items: center; gap: .3rem;
+  font: inherit; color: inherit; letter-spacing: inherit; text-transform: inherit }
+.aide:focus-visible { outline: 2px solid var(--neige); outline-offset: 2px; border-radius: 2px }
+.aide .i { display: inline-grid; place-items: center; width: 1.05rem; height: 1.05rem; border-radius: 50%;
+  border: 1px solid var(--doux); font-size: .68rem; line-height: 1; text-transform: none }
+.aide .bulle { position: absolute; top: calc(100% + .45rem); right: 0; z-index: 5; width: min(16rem, 70vw); white-space: normal;
+  text-align: left; text-transform: none; letter-spacing: 0; font: 400 .88rem/1.4 var(--texte); color: var(--encre);
+  background: var(--panneau); border: 1px solid var(--trait); border-radius: 6px; padding: .55rem .7rem;
+  box-shadow: 0 8px 24px -12px rgba(10, 30, 50, .5); visibility: hidden; opacity: 0 }
+.aide.gauche .bulle { right: auto; left: 0 }
+.aide:hover .bulle, .aide:focus .bulle { visibility: visible; opacity: 1 }
+@media (prefers-reduced-motion: no-preference) { .aide .bulle { transition: opacity .12s } }
 td.fort { font-weight: 500; color: var(--neige) }
 td.vide { color: var(--trait) }
 .corr { color: var(--neige); font-weight: 500 }
@@ -116,7 +128,7 @@ footer { border-top: 1px solid var(--trait); padding-top: 1.25rem; display: grid
     <h1>5 cm attendus jeu 19 nov.</h1>
     <div class="chapeau">
       <span>Neige fraîche sur 7 jours : <strong>14 cm</strong></span>
-      <span>Mis à jour le 14 nov. 2026 à 17 h 49</span>
+      <span>Mis à jour le 14 nov. 2026 à 17 h 51</span>
     </div>
   </header>
 
@@ -134,8 +146,7 @@ footer { border-top: 1px solid var(--trait); padding-top: 1.25rem; display: grid
     <h2 id="t-detail">Jour par jour</h2>
     <div class="tableau">
       <table>
-        <thead><tr><th scope="col">Jour</th><th scope="col">Prévu (cm)</th><th scope="col">Fourchette (cm)</th>
-          <th scope="col">Chance de neige</th><th scope="col">Chance ≥ 10 cm</th><th scope="col">Modèles</th></tr></thead>
+        <thead><tr><th scope="col"><button type="button" class="aide gauche" >Jour<span class="i" aria-hidden="true">?</span><span class="bulle" role="tooltip">De 7 h ce jour-là à 7 h le lendemain, comme les relevés de neige de Météo-France.</span></button></th><th scope="col"><button type="button" class="aide gauche" >Prévu (cm)<span class="i" aria-hidden="true">?</span><span class="bulle" role="tooltip">Neige fraîche attendue au Bettex (1 400 m) sur la journée, après correction par le réseau. C'est la médiane des modèles corrigés.</span></button></th><th scope="col"><button type="button" class="aide" >Fourchette (cm)<span class="i" aria-hidden="true">?</span><span class="bulle" role="tooltip">Sur les 51 scénarios de l'ensemble ECMWF, 8 sur 10 donnent une valeur dans cet intervalle. Plus il est large, plus la prévision est incertaine.</span></button></th><th scope="col"><button type="button" class="aide" >Chance de neige<span class="i" aria-hidden="true">?</span><span class="bulle" role="tooltip">Part des 51 scénarios ECMWF qui donnent au moins 1 cm de neige ce jour-là.</span></button></th><th scope="col"><button type="button" class="aide" >Chance ≥ 10 cm<span class="i" aria-hidden="true">?</span><span class="bulle" role="tooltip">Part des 51 scénarios ECMWF qui donnent 10 cm ou plus ce jour-là.</span></button></th><th scope="col"><button type="button" class="aide" >Modèles<span class="i" aria-hidden="true">?</span><span class="bulle" role="tooltip">Nombre de modèles météo qui couvrent ce jour. Météo-France ne va qu'à 4 jours, ICON à 7 ; au-delà, la prévision repose sur moins de modèles.</span></button></th></tr></thead>
         <tbody><tr><th scope="row">sam 14 nov.</th><td class="fort">0</td><td>0–0</td><td>0 %</td><td>0 %</td><td>5</td></tr><tr><th scope="row">dim 15 nov.</th><td class="fort">0</td><td>0–0</td><td>6 %</td><td>0 %</td><td>5</td></tr><tr><th scope="row">lun 16 nov.</th><td class="fort">0</td><td>0–0</td><td>2 %</td><td>2 %</td><td>5</td></tr><tr><th scope="row">mar 17 nov.</th><td class="fort">0</td><td>0–0</td><td>0 %</td><td>0 %</td><td>4</td></tr><tr><th scope="row">mer 18 nov.</th><td class="fort">3</td><td>0–1</td><td>14 %</td><td>0 %</td><td>4</td></tr><tr><th scope="row">jeu 19 nov.</th><td class="fort">5</td><td>0–11</td><td>49 %</td><td>18 %</td><td>4</td></tr><tr><th scope="row">ven 20 nov.</th><td class="fort">5</td><td>0–8</td><td>37 %</td><td>6 %</td><td>3</td></tr><tr><th scope="row">sam 21 nov.</th><td class="fort">0</td><td>0–0</td><td>0 %</td><td>0 %</td><td>3</td></tr><tr><th scope="row">dim 22 nov.</th><td class="fort">0</td><td>0–5</td><td>16 %</td><td>2 %</td><td>3</td></tr><tr><th scope="row">lun 23 nov.</th><td class="fort">2</td><td>0–5</td><td>27 %</td><td>0 %</td><td>3</td></tr></tbody>
       </table>
     </div>
