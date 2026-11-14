@@ -130,16 +130,24 @@ footer { border-top: 1px solid var(--trait); padding-top: 1.25rem; display: grid
 .barres ol { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(10, minmax(0, 1fr)); gap: .25rem }
 .col { display: grid; grid-template-rows: auto auto auto; text-align: center; min-width: 0 }
 .piste { position: relative; z-index: 1; height: 12.4rem; border-bottom: 1px solid var(--doux) }
-.plage { position: absolute; left: 50%; transform: translateX(-50%); width: min(60%, 1.6rem); border-radius: 4px; background: var(--neige); font-style: normal }
-.col.improbable .plage { background: var(--trait) }
+.plage { position: absolute; left: 50%; transform: translateX(-50%); width: min(60%, 1.4rem); font-style: normal;
+  --c: var(--neige); border-top: 2.5px solid var(--c); border-bottom: 2.5px solid var(--c); box-sizing: border-box }
+.plage::before { content: ""; position: absolute; left: 50%; top: 0; bottom: 0; transform: translateX(-50%); border-left: 2.5px solid var(--c) }
+.col.possible .plage::before { border-left-style: dashed }
+.col.improbable .plage { --c: var(--doux); opacity: .55 }
 .val { position: absolute; left: 0; right: 0; font-size: .78rem; font-weight: 500; color: var(--encre); white-space: nowrap }
 .col.improbable .val { color: var(--doux); font-weight: 400 }
-.col.possible .plage { background: repeating-linear-gradient(135deg, var(--neige) 0 3px, transparent 3px 6px); border: 1.5px solid var(--neige); border-bottom: 0 }
+
 
 .jour-nom { font-size: .75rem; color: var(--doux); line-height: 1.2; margin-top: .35rem }
 .chance { font-size: .72rem; color: var(--encre); margin-top: .15rem }
 .col.improbable .chance { color: var(--doux) }
-.legende i.faible { background: var(--trait) }
+.legende i.moust { position: relative; width: 12px; height: 16px; border-radius: 0; background: none;
+  border-top: 2.5px solid var(--neige); border-bottom: 2.5px solid var(--neige); box-sizing: border-box }
+.legende i.moust::before { content: ""; position: absolute; left: 50%; top: 0; bottom: 0; transform: translateX(-50%); border-left: 2.5px solid var(--neige) }
+.legende i.moust.pos::before { border-left-style: dashed }
+.legende i.moust.faible { border-color: var(--doux); opacity: .55 }
+.legende i.moust.faible::before { border-left-color: var(--doux) }
 .legende i.pale { background: repeating-linear-gradient(135deg, var(--neige) 0 3px, transparent 3px 6px); border: 1.5px solid var(--neige) }
 .ex-chance { font-family: var(--chiffres); font-size: .8rem; color: var(--encre); border: 1px solid var(--trait); border-radius: 3px; padding: 0 .3rem }
 table tr.improbable td.fort { color: var(--doux) }
@@ -156,19 +164,19 @@ td.fort small { font-weight: 400; color: var(--doux); font-family: var(--texte) 
     <h1>3 cm attendus jeu 19 nov.</h1>
     <div class="chapeau">
       <span>Neige probable sur 7 jours : <strong>3 cm</strong>, jusqu'à 12 cm si les chutes possibles se confirment</span>
-      <span>Mis à jour le 14 nov. 2026 à 19 h 42</span>
+      <span>Mis à jour le 14 nov. 2026 à 19 h 44</span>
     </div>
   </header>
 
   <section aria-labelledby="t-jours">
     <h2 id="t-jours">Les 10 prochains jours</h2>
-    <div class="graphique"><div class="barres" role="img" aria-label="Fourchette de neige fraîche et chance de neige par jour au Bettex"><div class="axe-y" aria-hidden="true"><span style="bottom:0.0%">0</span><span style="bottom:33.3%">5</span><span style="bottom:66.7%">10</span><span style="bottom:100.0%">15</span><em>cm</em></div><div class="grille" aria-hidden="true"><i style="bottom:33.3%"></i><i style="bottom:66.7%"></i><i style="bottom:100.0%"></i></div><ol><li class="col improbable" title="sam 14 nov. : 1 % de chances de neige, fourchette 0 cm"><div class="piste"><i class="plage" style="bottom:0.00rem;height:0.00rem"></i><b class="val" style="bottom:0.20rem">1 %</b></div><span class="jour-nom">sam.<br>14</span><span class="chance"></span></li><li class="col improbable" title="dim 15 nov. : 16 % de chances de neige, fourchette 0 cm"><div class="piste"><i class="plage" style="bottom:0.07rem;height:0.00rem"></i><b class="val" style="bottom:0.27rem">16 %</b></div><span class="jour-nom">dim.<br>15</span><span class="chance"></span></li><li class="col possible" title="lun 16 nov. : 20 % de chances de neige, fourchette 0–2 cm"><div class="piste"><i class="plage" style="bottom:0.00rem;height:1.54rem"></i><b class="val" style="bottom:1.74rem">20 %</b></div><span class="jour-nom">lun.<br>16</span><span class="chance">0–2</span></li><li class="col possible" title="mar 17 nov. : 29 % de chances de neige, fourchette 0–1 cm"><div class="piste"><i class="plage" style="bottom:0.00rem;height:0.95rem"></i><b class="val" style="bottom:1.15rem">29 %</b></div><span class="jour-nom">mar.<br>17</span><span class="chance">0–1</span></li><li class="col possible" title="mer 18 nov. : 41 % de chances de neige, fourchette 0–4 cm"><div class="piste"><i class="plage" style="bottom:0.22rem;height:2.93rem"></i><b class="val" style="bottom:3.35rem">41 %</b></div><span class="jour-nom">mer.<br>18</span><span class="chance">0–4</span></li><li class="col probable" title="jeu 19 nov. : 52 % de chances de neige, fourchette 0–12 cm"><div class="piste"><i class="plage" style="bottom:0.44rem;height:8.51rem"></i><b class="val" style="bottom:9.15rem">52 %</b></div><span class="jour-nom">jeu.<br>19</span><span class="chance">0–12</span></li><li class="col possible" title="ven 20 nov. : 44 % de chances de neige, fourchette 0–9 cm"><div class="piste"><i class="plage" style="bottom:0.22rem;height:6.53rem"></i><b class="val" style="bottom:6.95rem">44 %</b></div><span class="jour-nom">ven.<br>20</span><span class="chance">0–9</span></li><li class="col improbable" title="sam 21 nov. : 5 % de chances de neige, fourchette 0 cm"><div class="piste"><i class="plage" style="bottom:0.00rem;height:0.00rem"></i><b class="val" style="bottom:0.20rem">5 %</b></div><span class="jour-nom">sam.<br>21</span><span class="chance"></span></li><li class="col improbable" title="dim 22 nov. : 14 % de chances de neige, fourchette 0–3 cm"><div class="piste"><i class="plage" style="bottom:0.00rem;height:2.20rem"></i><b class="val" style="bottom:2.40rem">14 %</b></div><span class="jour-nom">dim.<br>22</span><span class="chance">0–3</span></li><li class="col possible" title="lun 23 nov. : 20 % de chances de neige, fourchette 0–3 cm"><div class="piste"><i class="plage" style="bottom:0.00rem;height:2.42rem"></i><b class="val" style="bottom:2.62rem">20 %</b></div><span class="jour-nom">lun.<br>23</span><span class="chance">0–3</span></li></ol></div></div>
+    <div class="graphique"><div class="barres" role="img" aria-label="Fourchette de neige fraîche et chance de neige par jour au Bettex"><div class="axe-y" aria-hidden="true"><span style="bottom:0.0%">0</span><span style="bottom:33.3%">5</span><span style="bottom:66.7%">10</span><span style="bottom:100.0%">15</span><em>cm</em></div><div class="grille" aria-hidden="true"><i style="bottom:33.3%"></i><i style="bottom:66.7%"></i><i style="bottom:100.0%"></i></div><ol><li class="col improbable" title="sam 14 nov. : 1 % de chances de neige, fourchette 0 cm"><div class="piste"><b class="val" style="bottom:0.20rem">1 %</b></div><span class="jour-nom">sam.<br>14</span><span class="chance"></span></li><li class="col improbable" title="dim 15 nov. : 16 % de chances de neige, fourchette 0 cm"><div class="piste"><b class="val" style="bottom:0.27rem">16 %</b></div><span class="jour-nom">dim.<br>15</span><span class="chance"></span></li><li class="col possible" title="lun 16 nov. : 20 % de chances de neige, fourchette 0–2 cm"><div class="piste"><i class="plage" style="bottom:0.00rem;height:1.54rem"></i><b class="val" style="bottom:1.74rem">20 %</b></div><span class="jour-nom">lun.<br>16</span><span class="chance">0–2</span></li><li class="col possible" title="mar 17 nov. : 29 % de chances de neige, fourchette 0–1 cm"><div class="piste"><i class="plage" style="bottom:0.00rem;height:0.95rem"></i><b class="val" style="bottom:1.15rem">29 %</b></div><span class="jour-nom">mar.<br>17</span><span class="chance">0–1</span></li><li class="col possible" title="mer 18 nov. : 41 % de chances de neige, fourchette 0–4 cm"><div class="piste"><i class="plage" style="bottom:0.22rem;height:2.93rem"></i><b class="val" style="bottom:3.35rem">41 %</b></div><span class="jour-nom">mer.<br>18</span><span class="chance">0–4</span></li><li class="col probable" title="jeu 19 nov. : 52 % de chances de neige, fourchette 0–12 cm"><div class="piste"><i class="plage" style="bottom:0.44rem;height:8.51rem"></i><b class="val" style="bottom:9.15rem">52 %</b></div><span class="jour-nom">jeu.<br>19</span><span class="chance">0–12</span></li><li class="col possible" title="ven 20 nov. : 44 % de chances de neige, fourchette 0–9 cm"><div class="piste"><i class="plage" style="bottom:0.22rem;height:6.53rem"></i><b class="val" style="bottom:6.95rem">44 %</b></div><span class="jour-nom">ven.<br>20</span><span class="chance">0–9</span></li><li class="col improbable" title="sam 21 nov. : 5 % de chances de neige, fourchette 0 cm"><div class="piste"><b class="val" style="bottom:0.20rem">5 %</b></div><span class="jour-nom">sam.<br>21</span><span class="chance"></span></li><li class="col improbable" title="dim 22 nov. : 14 % de chances de neige, fourchette 0–3 cm"><div class="piste"><i class="plage" style="bottom:0.00rem;height:2.20rem"></i><b class="val" style="bottom:2.40rem">14 %</b></div><span class="jour-nom">dim.<br>22</span><span class="chance">0–3</span></li><li class="col possible" title="lun 23 nov. : 20 % de chances de neige, fourchette 0–3 cm"><div class="piste"><i class="plage" style="bottom:0.00rem;height:2.42rem"></i><b class="val" style="bottom:2.62rem">20 %</b></div><span class="jour-nom">lun.<br>23</span><span class="chance">0–3</span></li></ol></div></div>
     <ul class="legende">
-      <li><i></i>Neige probable (au moins 50 % de chances)</li>
-      <li><i class="pale"></i>Neige possible (20 à 50 %)</li>
-      <li><i class="faible"></i>Peu probable</li>
+      <li><i class="moust"></i>Neige probable (au moins 50 % de chances)</li>
+      <li><i class="moust pos"></i>Neige possible (20 à 50 %)</li>
+      <li><i class="moust faible"></i>Peu probable</li>
     </ul>
-    <p class="note">Chaque barre va du minimum au maximum de neige fraîche attendue en cm : 8 des 51 scénarios ECMWF sur 10, corrigés un par un pour le Bettex, tombent dans cet intervalle. Au-dessus, la chance qu'il tombe au moins 1 cm.</p>
+    <p class="note">Chaque trait va du minimum (barre du bas) au maximum (barre du haut) de neige fraîche attendue en cm : 8 des 51 scénarios ECMWF sur 10, corrigés un par un pour le Bettex, tombent dans cet intervalle. Au-dessus, la chance qu'il tombe au moins 1 cm.</p>
     <p class="note">Une journée va de 7 h à 7 h le lendemain (heure d'hiver), comme les relevés de neige de Météo-France.</p>
   </section>
 
