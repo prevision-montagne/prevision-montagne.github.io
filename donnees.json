@@ -1,19 +1,8 @@
 {
- "genere": "2026-11-15T18:10+01:00",
- "emission": "2026-11-15",
+ "genere": "2026-11-16T07:40+01:00",
+ "emission": "2026-11-16",
  "modele": "ECMWF IFS, 51 scénarios",
  "prevision": [
-  {
-   "jour": "2026-11-15",
-   "p1": 32,
-   "p10": 5,
-   "bas": 0.6,
-   "haut": 1.5,
-   "moyenne": 1.1,
-   "mediane": 0.9,
-   "brut_mediane": 0.0,
-   "scenarios": 51
-  },
   {
    "jour": "2026-11-16",
    "p1": 31,
@@ -112,83 +101,20 @@
    "mediane": 0.4,
    "brut_mediane": 0.0,
    "scenarios": 51
+  },
+  {
+   "jour": "2026-11-25",
+   "p1": 27,
+   "p10": 13,
+   "bas": 0.0,
+   "haut": 17.0,
+   "moyenne": 4.0,
+   "mediane": 0.2,
+   "brut_mediane": 0.0,
+   "scenarios": 51
   }
  ],
  "tranches_3h": {
-  "2026-11-15": [
-   {
-    "debut": "07",
-    "fin": "10",
-    "proba_precip": 100,
-    "part_neige": 4,
-    "phase": "pluie",
-    "temperature": 3.0,
-    "eau": 1.5
-   },
-   {
-    "debut": "10",
-    "fin": "13",
-    "proba_precip": 43,
-    "part_neige": 0,
-    "phase": "pluie",
-    "temperature": 5.5,
-    "eau": 0.6
-   },
-   {
-    "debut": "13",
-    "fin": "16",
-    "proba_precip": 0,
-    "part_neige": null,
-    "phase": "sec",
-    "temperature": 6.7,
-    "eau": 0.0
-   },
-   {
-    "debut": "16",
-    "fin": "19",
-    "proba_precip": 8,
-    "part_neige": 0,
-    "phase": "sec",
-    "temperature": 4.3,
-    "eau": 0.6
-   },
-   {
-    "debut": "19",
-    "fin": "22",
-    "proba_precip": 80,
-    "part_neige": 9,
-    "phase": "pluie",
-    "temperature": 2.4,
-    "eau": 3.3
-   },
-   {
-    "debut": "22",
-    "fin": "01",
-    "proba_precip": 100,
-    "part_neige": 32,
-    "phase": "mixte",
-    "temperature": 2.0,
-    "eau": 6.0
-   },
-   {
-    "debut": "01",
-    "fin": "04",
-    "proba_precip": 100,
-    "part_neige": 60,
-    "phase": "mixte",
-    "temperature": 1.5,
-    "eau": 3.9
-   },
-   {
-    "debut": "04",
-    "fin": "07",
-    "proba_precip": 98,
-    "part_neige": 81,
-    "phase": "neige",
-    "temperature": 0.8,
-    "eau": 2.6
-   }
-  ],
   "2026-11-16": [
    {
     "debut": "07",
@@ -262,6 +188,80 @@
     "temperature": 3.9,
     "eau": 1.9
    }
+  ],
+  "2026-11-17": [
+   {
+    "debut": "07",
+    "fin": "10",
+    "proba_precip": 76,
+    "part_neige": 0,
+    "phase": "pluie",
+    "temperature": 5.3,
+    "eau": 3.6
+   },
+   {
+    "debut": "10",
+    "fin": "13",
+    "proba_precip": 94,
+    "part_neige": 0,
+    "phase": "pluie",
+    "temperature": 6.3,
+    "eau": 6.5
+   },
+   {
+    "debut": "13",
+    "fin": "16",
+    "proba_precip": 96,
+    "part_neige": 0,
+    "phase": "pluie",
+    "temperature": 6.0,
+    "eau": 4.8
+   },
+   {
+    "debut": "16",
+    "fin": "19",
+    "proba_precip": 94,
+    "part_neige": 0,
+    "phase": "pluie",
+    "temperature": 4.5,
+    "eau": 3.9
+   },
+   {
+    "debut": "19",
+    "fin": "22",
+    "proba_precip": 86,
+    "part_neige": 2,
+    "phase": "pluie",
+    "temperature": 3.8,
+    "eau": 3.3
+   },
+   {
+    "debut": "22",
+    "fin": "01",
+    "proba_precip": 78,
+    "part_neige": 8,
+    "phase": "pluie",
+    "temperature": 3.7,
+    "eau": 4.5
+   },
+   {
+    "debut": "01",
+    "fin": "04",
+    "proba_precip": 90,
+    "part_neige": 11,
+    "phase": "pluie",
+    "temperature": 3.4,
+    "eau": 3.9
+   },
+   {
+    "debut": "04",
+    "fin": "07",
+    "proba_precip": 98,
+    "part_neige": 13,
+    "phase": "pluie",
+    "temperature": 2.8,
+    "eau": 6.2
+   }
   ]
  },
  "bulletin": {
@@ -270,28 +270,28 @@
    "Enneigement bas": "Bas : 0 cm / Haut : 0 cm",
    "Enneigement haut": "Bas : 0 cm / Haut : 0 cm",
    "Hauteur de neige": "0 cm",
-   "Isotherme 0 °C": "2250 m",
-   "Limite pluie/neige": "1900 m",
-   "Mise à jour": "15/11/2026 17:57",
+   "Isotherme 0 °C": "1950 m",
+   "Limite pluie/neige": "1600 m",
+   "Mise à jour": "16/11/2026 07:09",
    "Qualité de la neige": "NC",
    "Risque d’avalanche": "NC",
-   "Température": "2 °C (Ressentie 1 °C)",
-   "Vent": "4 km/h (Direction Sud)",
-   "État du ciel": "Ciel variable, faibles averses de pluies"
+   "Température": "2 °C (Ressentie -3 °C)",
+   "Vent": "24 km/h (Direction Sud-Ouest)",
+   "État du ciel": "Couvert, pluies faibles"
   },
   "mont arbois": {
    "Dernière chute de neige": "31/03/2026",
    "Enneigement bas": "Bas : 0 cm / Haut : 0 cm",
    "Enneigement haut": "Bas : 0 cm / Haut : 0 cm",
    "Hauteur de neige": "0 cm",
-   "Isotherme 0 °C": "2250 m",
-   "Limite pluie/neige": "1900 m",
-   "Mise à jour": "15/11/2026 17:57",
+   "Isotherme 0 °C": "1950 m",
+   "Limite pluie/neige": "1600 m",
+   "Mise à jour": "16/11/2026 07:09",
    "Qualité de la neige": "NC",
    "Risque d’avalanche": "NC",
-   "Température": "2 °C (Ressentie 1 °C)",
-   "Vent": "4 km/h (Direction Sud)",
-   "État du ciel": "Ciel variable, faibles averses de pluies"
+   "Température": "2 °C (Ressentie -3 °C)",
+   "Vent": "24 km/h (Direction Sud-Ouest)",
+   "État du ciel": "Couvert, pluies faibles"
   }
  }
 }
