@@ -1,71 +1,71 @@
 {
- "genere": "2026-11-16T07:40+01:00",
+ "genere": "2026-11-16T11:20+01:00",
  "emission": "2026-11-16",
  "modele": "ECMWF IFS, 51 scénarios",
  "prevision": [
   {
    "jour": "2026-11-16",
-   "p1": 31,
-   "p10": 4,
-   "bas": 0.1,
-   "haut": 3.4,
-   "moyenne": 1.6,
-   "mediane": 1.0,
+   "p1": 27,
+   "p10": 2,
+   "bas": 0.3,
+   "haut": 1.5,
+   "moyenne": 0.8,
+   "mediane": 0.7,
    "brut_mediane": 0.0,
    "scenarios": 51
   },
   {
    "jour": "2026-11-17",
-   "p1": 55,
-   "p10": 11,
-   "bas": 1.2,
-   "haut": 4.8,
-   "moyenne": 2.9,
-   "mediane": 2.8,
+   "p1": 53,
+   "p10": 10,
+   "bas": 1.3,
+   "haut": 3.6,
+   "moyenne": 2.3,
+   "mediane": 2.0,
    "brut_mediane": 0.0,
    "scenarios": 51
   },
   {
    "jour": "2026-11-18",
-   "p1": 61,
-   "p10": 21,
-   "bas": 1.7,
-   "haut": 7.1,
-   "moyenne": 3.7,
-   "mediane": 3.2,
+   "p1": 54,
+   "p10": 14,
+   "bas": 1.5,
+   "haut": 4.2,
+   "moyenne": 2.8,
+   "mediane": 2.5,
    "brut_mediane": 0.0,
    "scenarios": 51
   },
   {
    "jour": "2026-11-19",
-   "p1": 63,
+   "p1": 67,
    "p10": 25,
-   "bas": 1.7,
-   "haut": 12.0,
-   "moyenne": 5.6,
-   "mediane": 3.6,
+   "bas": 2.9,
+   "haut": 12.1,
+   "moyenne": 5.8,
+   "mediane": 4.3,
    "brut_mediane": 0.0,
    "scenarios": 51
   },
   {
    "jour": "2026-11-20",
-   "p1": 43,
-   "p10": 12,
-   "bas": 0.2,
-   "haut": 7.6,
-   "moyenne": 3.1,
-   "mediane": 1.6,
-   "brut_mediane": 0.2,
+   "p1": 66,
+   "p10": 26,
+   "bas": 2.2,
+   "haut": 9.6,
+   "moyenne": 5.6,
+   "mediane": 3.8,
+   "brut_mediane": 1.2,
    "scenarios": 51
   },
   {
    "jour": "2026-11-21",
-   "p1": 8,
-   "p10": 1,
+   "p1": 13,
+   "p10": 2,
    "bas": 0.0,
-   "haut": 0.4,
-   "moyenne": 0.1,
-   "mediane": 0.0,
+   "haut": 0.5,
+   "moyenne": 0.3,
+   "mediane": 0.1,
    "brut_mediane": 0.0,
    "scenarios": 51
   },
@@ -119,148 +119,148 @@
    {
     "debut": "07",
     "fin": "10",
-    "proba_precip": 82,
-    "part_neige": 81,
-    "phase": "neige",
-    "temperature": 1.1,
-    "eau": 2.6
+    "proba_precip": 100,
+    "part_neige": 67,
+    "phase": "mixte",
+    "temperature": 1.3,
+    "eau": 2.1
    },
    {
     "debut": "10",
     "fin": "13",
-    "proba_precip": 69,
-    "part_neige": 65,
-    "phase": "mixte",
+    "proba_precip": 80,
+    "part_neige": 15,
+    "phase": "pluie",
     "temperature": 2.5,
-    "eau": 2.4
+    "eau": 0.9
    },
    {
     "debut": "13",
     "fin": "16",
-    "proba_precip": 53,
-    "part_neige": 58,
-    "phase": "mixte",
+    "proba_precip": 57,
+    "part_neige": 9,
+    "phase": "pluie",
     "temperature": 2.9,
-    "eau": 0.9
+    "eau": 0.6
    },
    {
     "debut": "16",
     "fin": "19",
-    "proba_precip": 37,
-    "part_neige": 62,
-    "phase": "mixte",
-    "temperature": 1.1,
-    "eau": 0.9
+    "proba_precip": 45,
+    "part_neige": 22,
+    "phase": "pluie",
+    "temperature": 2.0,
+    "eau": 0.6
    },
    {
     "debut": "19",
     "fin": "22",
-    "proba_precip": 29,
-    "part_neige": 48,
-    "phase": "sec",
-    "temperature": 0.8,
-    "eau": 1.2
+    "proba_precip": 57,
+    "part_neige": 25,
+    "phase": "pluie",
+    "temperature": 2.0,
+    "eau": 0.9
    },
    {
     "debut": "22",
     "fin": "01",
-    "proba_precip": 37,
-    "part_neige": 23,
+    "proba_precip": 75,
+    "part_neige": 3,
     "phase": "pluie",
-    "temperature": 1.6,
+    "temperature": 3.1,
     "eau": 1.2
    },
    {
     "debut": "01",
     "fin": "04",
-    "proba_precip": 55,
-    "part_neige": 3,
+    "proba_precip": 84,
+    "part_neige": 0,
     "phase": "pluie",
-    "temperature": 2.9,
-    "eau": 2.1
+    "temperature": 3.9,
+    "eau": 1.8
    },
    {
     "debut": "04",
     "fin": "07",
-    "proba_precip": 71,
-    "part_neige": 3,
+    "proba_precip": 51,
+    "part_neige": 0,
     "phase": "pluie",
-    "temperature": 3.9,
-    "eau": 1.9
+    "temperature": 4.6,
+    "eau": 0.9
    }
   ],
   "2026-11-17": [
    {
     "debut": "07",
     "fin": "10",
-    "proba_precip": 76,
+    "proba_precip": 80,
     "part_neige": 0,
     "phase": "pluie",
-    "temperature": 5.3,
+    "temperature": 5.8,
     "eau": 3.6
    },
    {
     "debut": "10",
     "fin": "13",
-    "proba_precip": 94,
+    "proba_precip": 100,
     "part_neige": 0,
     "phase": "pluie",
-    "temperature": 6.3,
-    "eau": 6.5
+    "temperature": 6.4,
+    "eau": 7.8
    },
    {
     "debut": "13",
     "fin": "16",
-    "proba_precip": 96,
+    "proba_precip": 100,
     "part_neige": 0,
     "phase": "pluie",
-    "temperature": 6.0,
-    "eau": 4.8
+    "temperature": 6.1,
+    "eau": 3.9
    },
    {
     "debut": "16",
     "fin": "19",
-    "proba_precip": 94,
+    "proba_precip": 88,
     "part_neige": 0,
     "phase": "pluie",
-    "temperature": 4.5,
-    "eau": 3.9
+    "temperature": 4.9,
+    "eau": 2.4
    },
    {
     "debut": "19",
     "fin": "22",
-    "proba_precip": 86,
-    "part_neige": 2,
+    "proba_precip": 67,
+    "part_neige": 1,
     "phase": "pluie",
     "temperature": 3.8,
-    "eau": 3.3
+    "eau": 1.8
    },
    {
     "debut": "22",
     "fin": "01",
-    "proba_precip": 78,
-    "part_neige": 8,
+    "proba_precip": 86,
+    "part_neige": 3,
     "phase": "pluie",
-    "temperature": 3.7,
-    "eau": 4.5
+    "temperature": 3.5,
+    "eau": 2.6
    },
    {
     "debut": "01",
     "fin": "04",
-    "proba_precip": 90,
-    "part_neige": 11,
+    "proba_precip": 98,
+    "part_neige": 4,
     "phase": "pluie",
-    "temperature": 3.4,
-    "eau": 3.9
+    "temperature": 3.2,
+    "eau": 6.6
    },
    {
     "debut": "04",
     "fin": "07",
-    "proba_precip": 98,
-    "part_neige": 13,
+    "proba_precip": 100,
+    "part_neige": 5,
     "phase": "pluie",
-    "temperature": 2.8,
-    "eau": 6.2
+    "temperature": 3.2,
+    "eau": 4.5
    }
   ]
  },
