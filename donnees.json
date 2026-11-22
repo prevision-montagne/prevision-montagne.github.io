@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-22T11:20+01:00",
+ "genere": "2026-11-22T18:10+01:00",
  "emission": "2026-11-22",
  "modele": "ECMWF IFS, 51 scénarios",
  "prevision": [
@@ -271,12 +271,12 @@
    "Enneigement haut": "Bas : 0 cm / Haut : 0 cm",
    "Hauteur de neige": "0 cm",
    "Isotherme 0 °C": "2500 m",
-   "Limite pluie/neige": "1900 m",
-   "Mise à jour": "22/11/2026 07:14",
+   "Limite pluie/neige": "1800 m",
+   "Mise à jour": "22/11/2026 17:58",
    "Qualité de la neige": "NC",
    "Risque d’avalanche": "NC",
    "Température": "4 °C (Ressentie 1 °C)",
-   "Vent": "12 km/h (Direction Sud-Ouest)",
+   "Vent": "13 km/h (Direction Sud-Ouest)",
    "État du ciel": "Couvert, pluies modérées ou fortes"
   },
   "mont arbois": {
@@ -285,12 +285,12 @@
    "Enneigement haut": "Bas : 0 cm / Haut : 0 cm",
    "Hauteur de neige": "0 cm",
    "Isotherme 0 °C": "2500 m",
-   "Limite pluie/neige": "1900 m",
-   "Mise à jour": "22/11/2026 07:14",
+   "Limite pluie/neige": "1800 m",
+   "Mise à jour": "22/11/2026 17:58",
    "Qualité de la neige": "NC",
    "Risque d’avalanche": "NC",
    "Température": "4 °C (Ressentie 1 °C)",
-   "Vent": "12 km/h (Direction Sud-Ouest)",
+   "Vent": "13 km/h (Direction Sud-Ouest)",
    "État du ciel": "Couvert, pluies modérées ou fortes"
   }
  }
