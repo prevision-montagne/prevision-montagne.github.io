@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-23T11:20+01:00",
+ "genere": "2026-11-23T18:10+01:00",
  "emission": "2026-11-23",
  "modele": "ECMWF IFS, 51 scénarios",
  "prevision": [
@@ -271,12 +271,12 @@
    "Enneigement haut": "Bas : 0 cm / Haut : 0 cm",
    "Hauteur de neige": "0 cm",
    "Isotherme 0 °C": "1450 m",
-   "Limite pluie/neige": "1050 m",
-   "Mise à jour": "23/11/2026 07:08",
+   "Limite pluie/neige": "1000 m",
+   "Mise à jour": "23/11/2026 17:58",
    "Qualité de la neige": "NC",
    "Risque d’avalanche": "NC",
-   "Température": "-2 °C (Ressentie -6 °C)",
-   "Vent": "11 km/h (Direction Sud-Ouest)",
+   "Température": "-3 °C (Ressentie -9 °C)",
+   "Vent": "19 km/h (Direction Sud-Ouest)",
    "État du ciel": "Couvert, faibles chutes de neige"
   },
   "mont arbois": {
@@ -285,12 +285,12 @@
    "Enneigement haut": "Bas : 0 cm / Haut : 0 cm",
    "Hauteur de neige": "0 cm",
    "Isotherme 0 °C": "1450 m",
-   "Limite pluie/neige": "1050 m",
-   "Mise à jour": "23/11/2026 07:08",
+   "Limite pluie/neige": "1000 m",
+   "Mise à jour": "23/11/2026 17:58",
    "Qualité de la neige": "NC",
    "Risque d’avalanche": "NC",
-   "Température": "-2 °C (Ressentie -6 °C)",
-   "Vent": "11 km/h (Direction Sud-Ouest)",
+   "Température": "-3 °C (Ressentie -9 °C)",
+   "Vent": "19 km/h (Direction Sud-Ouest)",
    "État du ciel": "Couvert, faibles chutes de neige"
   }
  }
