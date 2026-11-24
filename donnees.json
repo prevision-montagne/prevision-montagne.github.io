@@ -1,67 +1,45 @@
 {
- "genere": "2026-11-23T18:10+01:00",
- "emission": "2026-11-23",
+ "genere": "2026-11-24T07:40+01:00",
+ "emission": "2026-11-24",
  "modele": "ECMWF IFS, 51 scénarios",
  "prevision": [
   {
-   "jour": "2026-11-23",
-   "p1": 46,
-   "p10": 4,
-   "bas": 0.5,
-   "haut": 3.8,
-   "moyenne": 1.9,
-   "mediane": 1.7,
-   "brut_mediane": 1.6,
-   "scenarios": 51
-  },
-  {
    "jour": "2026-11-24",
-   "p1": 58,
-   "p10": 13,
-   "bas": 1.1,
-   "haut": 5.8,
-   "moyenne": 3.5,
-   "mediane": 3.4,
-   "brut_mediane": 4.0,
+   "p1": 40,
+   "p10": 6,
+   "bas": 0.6,
+   "haut": 3.4,
+   "moyenne": 2.0,
+   "mediane": 2.0,
+   "brut_mediane": 1.8,
    "scenarios": 51
   },
   {
    "jour": "2026-11-25",
-   "p1": 71,
-   "p10": 26,
-   "bas": 1.7,
-   "haut": 11.6,
-   "moyenne": 6.1,
-   "mediane": 5.2,
-   "brut_mediane": 4.5,
+   "p1": 68,
+   "p10": 20,
+   "bas": 2.1,
+   "haut": 8.6,
+   "moyenne": 5.0,
+   "mediane": 4.6,
+   "brut_mediane": 4.8,
    "scenarios": 51
   },
   {
    "jour": "2026-11-26",
-   "p1": 29,
-   "p10": 5,
+   "p1": 22,
+   "p10": 2,
    "bas": 0.1,
-   "haut": 3.5,
-   "moyenne": 1.3,
+   "haut": 1.0,
+   "moyenne": 0.6,
    "mediane": 0.4,
    "brut_mediane": 0.6,
    "scenarios": 51
   },
   {
    "jour": "2026-11-27",
-   "p1": 12,
-   "p10": 1,
-   "bas": 0.0,
-   "haut": 0.6,
-   "moyenne": 0.3,
-   "mediane": 0.1,
-   "brut_mediane": 0.0,
-   "scenarios": 51
-  },
-  {
-   "jour": "2026-11-28",
-   "p1": 5,
-   "p10": 1,
+   "p1": 6,
+   "p10": 0,
    "bas": 0.0,
    "haut": 0.1,
    "moyenne": 0.0,
@@ -70,125 +48,73 @@
    "scenarios": 51
   },
   {
-   "jour": "2026-11-29",
-   "p1": 18,
-   "p10": 3,
+   "jour": "2026-11-28",
+   "p1": 4,
+   "p10": 0,
    "bas": 0.0,
-   "haut": 3.2,
-   "moyenne": 0.8,
+   "haut": 0.0,
+   "moyenne": 0.0,
    "mediane": 0.0,
    "brut_mediane": 0.0,
    "scenarios": 51
   },
   {
-   "jour": "2026-11-30",
-   "p1": 19,
-   "p10": 5,
+   "jour": "2026-11-29",
+   "p1": 12,
+   "p10": 2,
    "bas": 0.0,
-   "haut": 3.9,
-   "moyenne": 1.1,
+   "haut": 1.2,
+   "moyenne": 0.6,
+   "mediane": 0.1,
+   "brut_mediane": 0.0,
+   "scenarios": 51
+  },
+  {
+   "jour": "2026-11-30",
+   "p1": 10,
+   "p10": 1,
+   "bas": 0.0,
+   "haut": 0.8,
+   "moyenne": 0.3,
    "mediane": 0.0,
    "brut_mediane": 0.0,
    "scenarios": 51
   },
   {
    "jour": "2026-12-01",
-   "p1": 10,
-   "p10": 2,
+   "p1": 8,
+   "p10": 1,
    "bas": 0.0,
-   "haut": 0.6,
-   "moyenne": 0.6,
+   "haut": 0.7,
+   "moyenne": 0.2,
    "mediane": 0.0,
    "brut_mediane": 0.0,
    "scenarios": 51
   },
   {
    "jour": "2026-12-02",
-   "p1": 7,
-   "p10": 1,
+   "p1": 9,
+   "p10": 2,
    "bas": 0.0,
-   "haut": 0.2,
-   "moyenne": 0.2,
+   "haut": 0.8,
+   "moyenne": 0.4,
+   "mediane": 0.0,
+   "brut_mediane": 0.0,
+   "scenarios": 51
+  },
+  {
+   "jour": "2026-12-03",
+   "p1": 14,
+   "p10": 3,
+   "bas": 0.0,
+   "haut": 1.9,
+   "moyenne": 0.7,
    "mediane": 0.0,
    "brut_mediane": 0.0,
    "scenarios": 51
   }
  ],
  "tranches_3h": {
-  "2026-11-23": [
-   {
-    "debut": "07",
-    "fin": "10",
-    "proba_precip": 90,
-    "part_neige": 100,
-    "phase": "neige",
-    "temperature": -1.2,
-    "eau": 1.8
-   },
-   {
-    "debut": "10",
-    "fin": "13",
-    "proba_precip": 78,
-    "part_neige": 100,
-    "phase": "neige",
-    "temperature": -0.4,
-    "eau": 1.5
-   },
-   {
-    "debut": "13",
-    "fin": "16",
-    "proba_precip": 80,
-    "part_neige": 100,
-    "phase": "neige",
-    "temperature": -0.5,
-    "eau": 1.5
-   },
-   {
-    "debut": "16",
-    "fin": "19",
-    "proba_precip": 63,
-    "part_neige": 100,
-    "phase": "neige",
-    "temperature": -1.0,
-    "eau": 0.8
-   },
-   {
-    "debut": "19",
-    "fin": "22",
-    "proba_precip": 8,
-    "part_neige": 100,
-    "phase": "sec",
-    "temperature": -1.1,
-    "eau": 0.6
-   },
-   {
-    "debut": "22",
-    "fin": "01",
-    "proba_precip": 0,
-    "part_neige": null,
-    "phase": "sec",
-    "temperature": -3.6,
-    "eau": 0.0
-   },
-   {
-    "debut": "01",
-    "fin": "04",
-    "proba_precip": 0,
-    "part_neige": null,
-    "phase": "sec",
-    "temperature": -6.6,
-    "eau": 0.0
-   },
-   {
-    "debut": "04",
-    "fin": "07",
-    "proba_precip": 0,
-    "part_neige": null,
-    "phase": "sec",
-    "temperature": -6.8,
-    "eau": 0.0
-   }
-  ],
   "2026-11-24": [
    {
     "debut": "07",
@@ -196,7 +122,7 @@
     "proba_precip": 0,
     "part_neige": null,
     "phase": "sec",
-    "temperature": -3.5,
+    "temperature": -3.2,
     "eau": 0.0
    },
    {
@@ -205,7 +131,7 @@
     "proba_precip": 0,
     "part_neige": null,
     "phase": "sec",
-    "temperature": 2.6,
+    "temperature": 2.9,
     "eau": 0.0
    },
    {
@@ -214,44 +140,44 @@
     "proba_precip": 0,
     "part_neige": null,
     "phase": "sec",
-    "temperature": 3.1,
+    "temperature": 3.5,
     "eau": 0.0
    },
    {
     "debut": "16",
     "fin": "19",
-    "proba_precip": 2,
-    "part_neige": 100,
+    "proba_precip": 0,
+    "part_neige": null,
     "phase": "sec",
     "temperature": 0.2,
-    "eau": 0.6
+    "eau": 0.0
    },
    {
     "debut": "19",
     "fin": "22",
-    "proba_precip": 31,
+    "proba_precip": 16,
     "part_neige": 100,
-    "phase": "neige",
+    "phase": "sec",
     "temperature": -1.3,
     "eau": 0.6
    },
    {
     "debut": "22",
     "fin": "01",
-    "proba_precip": 88,
+    "proba_precip": 90,
     "part_neige": 100,
     "phase": "neige",
-    "temperature": -1.3,
-    "eau": 1.8
+    "temperature": -1.2,
+    "eau": 1.2
    },
    {
     "debut": "01",
     "fin": "04",
-    "proba_precip": 100,
+    "proba_precip": 98,
     "part_neige": 100,
     "phase": "neige",
-    "temperature": -1.4,
-    "eau": 2.4
+    "temperature": -0.9,
+    "eau": 1.5
    },
    {
     "debut": "04",
@@ -259,8 +185,82 @@
     "proba_precip": 96,
     "part_neige": 100,
     "phase": "neige",
-    "temperature": -1.6,
-    "eau": 2.1
+    "temperature": -1.2,
+    "eau": 1.8
+   }
+  ],
+  "2026-11-25": [
+   {
+    "debut": "07",
+    "fin": "10",
+    "proba_precip": 98,
+    "part_neige": 100,
+    "phase": "neige",
+    "temperature": -0.5,
+    "eau": 2.2
+   },
+   {
+    "debut": "10",
+    "fin": "13",
+    "proba_precip": 78,
+    "part_neige": 67,
+    "phase": "mixte",
+    "temperature": 1.3,
+    "eau": 1.2
+   },
+   {
+    "debut": "13",
+    "fin": "16",
+    "proba_precip": 71,
+    "part_neige": 93,
+    "phase": "neige",
+    "temperature": 0.8,
+    "eau": 1.2
+   },
+   {
+    "debut": "16",
+    "fin": "19",
+    "proba_precip": 67,
+    "part_neige": 100,
+    "phase": "neige",
+    "temperature": -1.2,
+    "eau": 0.9
+   },
+   {
+    "debut": "19",
+    "fin": "22",
+    "proba_precip": 73,
+    "part_neige": 100,
+    "phase": "neige",
+    "temperature": -2.0,
+    "eau": 1.2
+   },
+   {
+    "debut": "22",
+    "fin": "01",
+    "proba_precip": 69,
+    "part_neige": 100,
+    "phase": "neige",
+    "temperature": -2.4,
+    "eau": 1.2
+   },
+   {
+    "debut": "01",
+    "fin": "04",
+    "proba_precip": 90,
+    "part_neige": 100,
+    "phase": "neige",
+    "temperature": -2.5,
+    "eau": 1.8
+   },
+   {
+    "debut": "04",
+    "fin": "07",
+    "proba_precip": 94,
+    "part_neige": 100,
+    "phase": "neige",
+    "temperature": -2.4,
+    "eau": 1.8
    }
   ]
  },
@@ -270,28 +270,28 @@
    "Enneigement bas": "Bas : 0 cm / Haut : 0 cm",
    "Enneigement haut": "Bas : 0 cm / Haut : 0 cm",
    "Hauteur de neige": "0 cm",
-   "Isotherme 0 °C": "1450 m",
-   "Limite pluie/neige": "1000 m",
-   "Mise à jour": "23/11/2026 17:58",
+   "Isotherme 0 °C": "2300 m",
+   "Limite pluie/neige": "NC",
+   "Mise à jour": "24/11/2026 07:08",
    "Qualité de la neige": "NC",
    "Risque d’avalanche": "NC",
-   "Température": "-3 °C (Ressentie -9 °C)",
-   "Vent": "19 km/h (Direction Sud-Ouest)",
-   "État du ciel": "Couvert, faibles chutes de neige"
+   "Température": "3 °C (Ressentie 3 °C)",
+   "Vent": "2 km/h (Direction Nord-Ouest)",
+   "État du ciel": "Très nuageux, courtes éclaircies"
   },
   "mont arbois": {
    "Dernière chute de neige": "31/03/2026",
    "Enneigement bas": "Bas : 0 cm / Haut : 0 cm",
    "Enneigement haut": "Bas : 0 cm / Haut : 0 cm",
    "Hauteur de neige": "0 cm",
-   "Isotherme 0 °C": "1450 m",
-   "Limite pluie/neige": "1000 m",
-   "Mise à jour": "23/11/2026 17:58",
+   "Isotherme 0 °C": "2300 m",
+   "Limite pluie/neige": "NC",
+   "Mise à jour": "24/11/2026 07:08",
    "Qualité de la neige": "NC",
    "Risque d’avalanche": "NC",
-   "Température": "-3 °C (Ressentie -9 °C)",
-   "Vent": "19 km/h (Direction Sud-Ouest)",
-   "État du ciel": "Couvert, faibles chutes de neige"
+   "Température": "3 °C (Ressentie 3 °C)",
+   "Vent": "2 km/h (Direction Nord-Ouest)",
+   "État du ciel": "Très nuageux, courtes éclaircies"
   }
  }
 }
