@@ -1,28 +1,17 @@
 {
- "genere": "2026-11-24T18:10+01:00",
- "emission": "2026-11-24",
+ "genere": "2026-11-25T07:40+01:00",
+ "emission": "2026-11-25",
  "modele": "ECMWF IFS, 51 scénarios",
  "prevision": [
   {
-   "jour": "2026-11-24",
-   "p1": 40,
-   "p10": 6,
-   "bas": 0.6,
-   "haut": 3.4,
-   "moyenne": 2.0,
-   "mediane": 2.0,
-   "brut_mediane": 1.8,
-   "scenarios": 51
-  },
-  {
    "jour": "2026-11-25",
-   "p1": 68,
-   "p10": 20,
-   "bas": 2.1,
-   "haut": 8.6,
-   "moyenne": 5.0,
-   "mediane": 4.6,
-   "brut_mediane": 4.8,
+   "p1": 37,
+   "p10": 4,
+   "bas": 0.6,
+   "haut": 3.0,
+   "moyenne": 1.7,
+   "mediane": 1.4,
+   "brut_mediane": 1.7,
    "scenarios": 51
   },
   {
@@ -30,18 +19,18 @@
    "p1": 22,
    "p10": 2,
    "bas": 0.1,
-   "haut": 1.0,
-   "moyenne": 0.6,
+   "haut": 1.4,
+   "moyenne": 0.8,
    "mediane": 0.4,
    "brut_mediane": 0.6,
    "scenarios": 51
   },
   {
    "jour": "2026-11-27",
-   "p1": 6,
+   "p1": 5,
    "p10": 0,
    "bas": 0.0,
-   "haut": 0.1,
+   "haut": 0.0,
    "moyenne": 0.0,
    "mediane": 0.0,
    "brut_mediane": 0.0,
@@ -49,7 +38,7 @@
   },
   {
    "jour": "2026-11-28",
-   "p1": 4,
+   "p1": 3,
    "p10": 0,
    "bas": 0.0,
    "haut": 0.0,
@@ -60,207 +49,218 @@
   },
   {
    "jour": "2026-11-29",
-   "p1": 12,
-   "p10": 2,
+   "p1": 2,
+   "p10": 0,
    "bas": 0.0,
-   "haut": 1.2,
-   "moyenne": 0.6,
-   "mediane": 0.1,
+   "haut": 0.0,
+   "moyenne": 0.0,
+   "mediane": 0.0,
    "brut_mediane": 0.0,
    "scenarios": 51
   },
   {
    "jour": "2026-11-30",
-   "p1": 10,
-   "p10": 1,
+   "p1": 2,
+   "p10": 0,
    "bas": 0.0,
-   "haut": 0.8,
-   "moyenne": 0.3,
+   "haut": 0.0,
+   "moyenne": 0.0,
    "mediane": 0.0,
    "brut_mediane": 0.0,
    "scenarios": 51
   },
   {
    "jour": "2026-12-01",
-   "p1": 8,
-   "p10": 1,
+   "p1": 3,
+   "p10": 0,
    "bas": 0.0,
-   "haut": 0.7,
-   "moyenne": 0.2,
+   "haut": 0.0,
+   "moyenne": 0.0,
    "mediane": 0.0,
    "brut_mediane": 0.0,
    "scenarios": 51
   },
   {
    "jour": "2026-12-02",
-   "p1": 9,
-   "p10": 2,
+   "p1": 4,
+   "p10": 1,
    "bas": 0.0,
-   "haut": 0.8,
-   "moyenne": 0.4,
+   "haut": 0.1,
+   "moyenne": 0.1,
    "mediane": 0.0,
    "brut_mediane": 0.0,
    "scenarios": 51
   },
   {
    "jour": "2026-12-03",
-   "p1": 14,
-   "p10": 3,
+   "p1": 6,
+   "p10": 1,
    "bas": 0.0,
-   "haut": 1.9,
-   "moyenne": 0.7,
+   "haut": 0.1,
+   "moyenne": 0.1,
+   "mediane": 0.0,
+   "brut_mediane": 0.0,
+   "scenarios": 51
+  },
+  {
+   "jour": "2026-12-04",
+   "p1": 6,
+   "p10": 0,
+   "bas": 0.0,
+   "haut": 0.4,
+   "moyenne": 0.1,
    "mediane": 0.0,
    "brut_mediane": 0.0,
    "scenarios": 51
   }
  ],
  "tranches_3h": {
-  "2026-11-24": [
+  "2026-11-25": [
    {
     "debut": "07",
     "fin": "10",
-    "proba_precip": 0,
-    "part_neige": null,
-    "phase": "sec",
-    "temperature": -3.2,
-    "eau": 0.0
+    "proba_precip": 100,
+    "part_neige": 100,
+    "phase": "neige",
+    "temperature": -0.5,
+    "eau": 2.7
    },
    {
     "debut": "10",
     "fin": "13",
-    "proba_precip": 0,
-    "part_neige": null,
-    "phase": "sec",
-    "temperature": 2.9,
-    "eau": 0.0
+    "proba_precip": 41,
+    "part_neige": 48,
+    "phase": "mixte",
+    "temperature": 1.8,
+    "eau": 0.6
    },
    {
     "debut": "13",
     "fin": "16",
-    "proba_precip": 0,
-    "part_neige": null,
-    "phase": "sec",
-    "temperature": 3.5,
-    "eau": 0.0
+    "proba_precip": 51,
+    "part_neige": 83,
+    "phase": "neige",
+    "temperature": 1.3,
+    "eau": 0.9
    },
    {
     "debut": "16",
     "fin": "19",
-    "proba_precip": 0,
-    "part_neige": null,
-    "phase": "sec",
-    "temperature": 0.2,
-    "eau": 0.0
+    "proba_precip": 41,
+    "part_neige": 100,
+    "phase": "neige",
+    "temperature": -0.7,
+    "eau": 1.2
    },
    {
     "debut": "19",
     "fin": "22",
-    "proba_precip": 16,
+    "proba_precip": 49,
     "part_neige": 100,
-    "phase": "sec",
-    "temperature": -1.3,
+    "phase": "neige",
+    "temperature": -1.8,
     "eau": 0.6
    },
    {
     "debut": "22",
     "fin": "01",
-    "proba_precip": 90,
+    "proba_precip": 12,
     "part_neige": 100,
-    "phase": "neige",
-    "temperature": -1.2,
-    "eau": 1.2
+    "phase": "sec",
+    "temperature": -3.2,
+    "eau": 0.8
    },
    {
     "debut": "01",
     "fin": "04",
-    "proba_precip": 98,
+    "proba_precip": 20,
     "part_neige": 100,
-    "phase": "neige",
-    "temperature": -0.9,
-    "eau": 1.5
+    "phase": "sec",
+    "temperature": -3.5,
+    "eau": 0.9
    },
    {
     "debut": "04",
     "fin": "07",
-    "proba_precip": 96,
+    "proba_precip": 51,
     "part_neige": 100,
     "phase": "neige",
-    "temperature": -1.2,
-    "eau": 1.8
+    "temperature": -3.1,
+    "eau": 0.9
    }
   ],
-  "2026-11-25": [
+  "2026-11-26": [
    {
     "debut": "07",
     "fin": "10",
-    "proba_precip": 98,
+    "proba_precip": 59,
     "part_neige": 100,
     "phase": "neige",
-    "temperature": -0.5,
-    "eau": 2.2
+    "temperature": -1.9,
+    "eau": 0.8
    },
    {
     "debut": "10",
     "fin": "13",
-    "proba_precip": 78,
-    "part_neige": 67,
-    "phase": "mixte",
-    "temperature": 1.3,
-    "eau": 1.2
+    "proba_precip": 51,
+    "part_neige": 100,
+    "phase": "neige",
+    "temperature": -0.5,
+    "eau": 0.6
    },
    {
     "debut": "13",
     "fin": "16",
-    "proba_precip": 71,
-    "part_neige": 93,
+    "proba_precip": 37,
+    "part_neige": 100,
     "phase": "neige",
-    "temperature": 0.8,
-    "eau": 1.2
+    "temperature": -0.5,
+    "eau": 0.6
    },
    {
     "debut": "16",
     "fin": "19",
-    "proba_precip": 67,
+    "proba_precip": 31,
     "part_neige": 100,
     "phase": "neige",
-    "temperature": -1.2,
-    "eau": 0.9
+    "temperature": -1.1,
+    "eau": 0.6
    },
    {
     "debut": "19",
     "fin": "22",
-    "proba_precip": 73,
-    "part_neige": 100,
-    "phase": "neige",
-    "temperature": -2.0,
-    "eau": 1.2
+    "proba_precip": 0,
+    "part_neige": null,
+    "phase": "sec",
+    "temperature": -1.7,
+    "eau": 0.0
    },
    {
     "debut": "22",
     "fin": "01",
-    "proba_precip": 69,
-    "part_neige": 100,
-    "phase": "neige",
-    "temperature": -2.4,
-    "eau": 1.2
+    "proba_precip": 0,
+    "part_neige": null,
+    "phase": "sec",
+    "temperature": -3.4,
+    "eau": 0.0
    },
    {
     "debut": "01",
     "fin": "04",
-    "proba_precip": 90,
-    "part_neige": 100,
-    "phase": "neige",
-    "temperature": -2.5,
-    "eau": 1.8
+    "proba_precip": 0,
+    "part_neige": null,
+    "phase": "sec",
+    "temperature": -4.0,
+    "eau": 0.0
    },
    {
     "debut": "04",
     "fin": "07",
-    "proba_precip": 94,
-    "part_neige": 100,
-    "phase": "neige",
-    "temperature": -2.4,
-    "eau": 1.8
+    "proba_precip": 0,
+    "part_neige": null,
+    "phase": "sec",
+    "temperature": -4.2,
+    "eau": 0.0
    }
   ]
  },
@@ -271,13 +271,13 @@
    "Enneigement haut": "Bas : 0 cm / Haut : 0 cm",
    "Hauteur de neige": "0 cm",
    "Isotherme 0 °C": "2300 m",
-   "Limite pluie/neige": "NC",
-   "Mise à jour": "24/11/2026 17:57",
+   "Limite pluie/neige": "1500 m",
+   "Mise à jour": "25/11/2026 07:07",
    "Qualité de la neige": "NC",
    "Risque d’avalanche": "NC",
-   "Température": "3 °C (Ressentie 2 °C)",
-   "Vent": "4 km/h (Direction Nord)",
-   "État du ciel": "Très nuageux, courtes éclaircies"
+   "Température": "6 °C (Ressentie 3 °C)",
+   "Vent": "14 km/h (Direction Sud-Est)",
+   "État du ciel": "Couvert, pluies faibles"
   },
   "mont arbois": {
    "Dernière chute de neige": "31/03/2026",
@@ -285,13 +285,13 @@
    "Enneigement haut": "Bas : 0 cm / Haut : 0 cm",
    "Hauteur de neige": "0 cm",
    "Isotherme 0 °C": "2300 m",
-   "Limite pluie/neige": "NC",
-   "Mise à jour": "24/11/2026 17:57",
+   "Limite pluie/neige": "1500 m",
+   "Mise à jour": "25/11/2026 07:07",
    "Qualité de la neige": "NC",
    "Risque d’avalanche": "NC",
-   "Température": "3 °C (Ressentie 2 °C)",
-   "Vent": "4 km/h (Direction Nord)",
-   "État du ciel": "Très nuageux, courtes éclaircies"
+   "Température": "6 °C (Ressentie 3 °C)",
+   "Vent": "14 km/h (Direction Sud-Est)",
+   "État du ciel": "Couvert, pluies faibles"
   }
  }
 }
