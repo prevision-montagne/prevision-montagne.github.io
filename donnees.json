@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-27T11:20+01:00",
+ "genere": "2026-11-27T18:10+01:00",
  "emission": "2026-11-27",
  "modele": "ECMWF IFS, 51 scénarios",
  "prevision": [
@@ -270,28 +270,28 @@
    "Enneigement bas": "Bas : 0 cm / Haut : 0 cm",
    "Enneigement haut": "Bas : 0 cm / Haut : 0 cm",
    "Hauteur de neige": "0 cm",
-   "Isotherme 0 °C": "1500 m",
+   "Isotherme 0 °C": "1550 m",
    "Limite pluie/neige": "NC",
-   "Mise à jour": "27/11/2026 07:07",
+   "Mise à jour": "27/11/2026 17:57",
    "Qualité de la neige": "NC",
    "Risque d’avalanche": "NC",
    "Température": "NC (Ressentie -3 °C)",
-   "Vent": "10 km/h (Direction Ouest)",
-   "État du ciel": "Soleil"
+   "Vent": "9 km/h (Direction Ouest)",
+   "État du ciel": "Couvert"
   },
   "mont arbois": {
    "Dernière chute de neige": "31/03/2026",
    "Enneigement bas": "Bas : 0 cm / Haut : 0 cm",
    "Enneigement haut": "Bas : 0 cm / Haut : 0 cm",
    "Hauteur de neige": "0 cm",
-   "Isotherme 0 °C": "1500 m",
+   "Isotherme 0 °C": "1550 m",
    "Limite pluie/neige": "NC",
-   "Mise à jour": "27/11/2026 07:07",
+   "Mise à jour": "27/11/2026 17:57",
    "Qualité de la neige": "NC",
    "Risque d’avalanche": "NC",
    "Température": "NC (Ressentie -3 °C)",
-   "Vent": "10 km/h (Direction Ouest)",
-   "État du ciel": "Soleil"
+   "Vent": "9 km/h (Direction Ouest)",
+   "État du ciel": "Couvert"
   }
  }
 }
