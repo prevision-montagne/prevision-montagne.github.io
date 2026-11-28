@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-28T07:40+01:00",
+ "genere": "2026-11-28T11:20+01:00",
  "emission": "2026-11-28",
  "modele": "ECMWF IFS, 51 scénarios",
  "prevision": [
@@ -16,13 +16,13 @@
   },
   {
    "jour": "2026-11-29",
-   "p1": 4,
+   "p1": 3,
    "p10": 0,
    "bas": 0.0,
    "haut": 0.3,
-   "moyenne": 0.2,
+   "moyenne": 0.1,
    "mediane": 0.1,
-   "brut_mediane": 0.3,
+   "brut_mediane": 0.2,
    "scenarios": 51
   },
   {
@@ -49,10 +49,10 @@
   },
   {
    "jour": "2026-12-02",
-   "p1": 3,
+   "p1": 2,
    "p10": 0,
    "bas": 0.0,
-   "haut": 0.1,
+   "haut": 0.2,
    "moyenne": 0.1,
    "mediane": 0.0,
    "brut_mediane": 0.0,
@@ -93,21 +93,21 @@
   },
   {
    "jour": "2026-12-06",
-   "p1": 6,
+   "p1": 7,
    "p10": 1,
    "bas": 0.0,
-   "haut": 0.5,
-   "moyenne": 0.1,
+   "haut": 0.6,
+   "moyenne": 0.3,
    "mediane": 0.0,
    "brut_mediane": 0.0,
    "scenarios": 51
   },
   {
    "jour": "2026-12-07",
-   "p1": 14,
+   "p1": 13,
    "p10": 3,
    "bas": 0.0,
-   "haut": 1.8,
+   "haut": 2.8,
    "moyenne": 0.7,
    "mediane": 0.0,
    "brut_mediane": 0.0,
@@ -122,7 +122,7 @@
     "proba_precip": 0,
     "part_neige": null,
     "phase": "sec",
-    "temperature": -8.2,
+    "temperature": -7.8,
     "eau": 0.0
    },
    {
@@ -131,7 +131,7 @@
     "proba_precip": 0,
     "part_neige": null,
     "phase": "sec",
-    "temperature": -0.2,
+    "temperature": 0.3,
     "eau": 0.0
    },
    {
@@ -140,7 +140,7 @@
     "proba_precip": 0,
     "part_neige": null,
     "phase": "sec",
-    "temperature": 0.6,
+    "temperature": 0.7,
     "eau": 0.0
    },
    {
@@ -149,7 +149,7 @@
     "proba_precip": 0,
     "part_neige": null,
     "phase": "sec",
-    "temperature": -3.7,
+    "temperature": -3.3,
     "eau": 0.0
    },
    {
@@ -158,7 +158,7 @@
     "proba_precip": 0,
     "part_neige": null,
     "phase": "sec",
-    "temperature": -5.4,
+    "temperature": -5.1,
     "eau": 0.0
    },
    {
@@ -167,7 +167,7 @@
     "proba_precip": 0,
     "part_neige": null,
     "phase": "sec",
-    "temperature": -5.1,
+    "temperature": -5.0,
     "eau": 0.0
    },
    {
@@ -185,7 +185,7 @@
     "proba_precip": 0,
     "part_neige": null,
     "phase": "sec",
-    "temperature": -5.1,
+    "temperature": -4.8,
     "eau": 0.0
    }
   ],
@@ -196,7 +196,7 @@
     "proba_precip": 0,
     "part_neige": null,
     "phase": "sec",
-    "temperature": -2.1,
+    "temperature": -1.9,
     "eau": 0.0
    },
    {
@@ -205,7 +205,7 @@
     "proba_precip": 0,
     "part_neige": null,
     "phase": "sec",
-    "temperature": 3.4,
+    "temperature": 3.7,
     "eau": 0.0
    },
    {
@@ -214,16 +214,16 @@
     "proba_precip": 0,
     "part_neige": null,
     "phase": "sec",
-    "temperature": 3.5,
+    "temperature": 4.0,
     "eau": 0.0
    },
    {
     "debut": "16",
     "fin": "19",
     "proba_precip": 4,
-    "part_neige": 98,
+    "part_neige": 68,
     "phase": "sec",
-    "temperature": 0.4,
+    "temperature": 0.9,
     "eau": 0.5
    },
    {
@@ -232,7 +232,7 @@
     "proba_precip": 22,
     "part_neige": 100,
     "phase": "sec",
-    "temperature": -1.0,
+    "temperature": -0.9,
     "eau": 0.7
    },
    {
@@ -241,7 +241,7 @@
     "proba_precip": 33,
     "part_neige": 100,
     "phase": "neige",
-    "temperature": -1.6,
+    "temperature": -1.4,
     "eau": 0.6
    },
    {
@@ -250,7 +250,7 @@
     "proba_precip": 25,
     "part_neige": 100,
     "phase": "sec",
-    "temperature": -1.8,
+    "temperature": -1.5,
     "eau": 0.5
    },
    {
@@ -259,7 +259,7 @@
     "proba_precip": 12,
     "part_neige": 100,
     "phase": "sec",
-    "temperature": -2.4,
+    "temperature": -1.9,
     "eau": 0.5
    }
   ]
